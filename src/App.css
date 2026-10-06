@@ -1,0 +1,36 @@
+*{
+ box-sizing: border-box;
+}
+
+body{
+ margin: 0;
+ background: white;
+ color: black;
+ font-family: Arial, sans-serif;
+}
+
+.list{
+ height: 100vh;
+ overflow-y: auto;
+ padding: 10px;
+}
+
+.listHeight{
+ position: relative;
+ width: 100%;
+}
+
+.item{
+ position: absolute;
+ left: 0;
+ right: 0;
+ height: 86px;
+
+ display: flex;
+ align-items: center;
+ padding-left: 15px;
+
+ color: black;
+ background: white;
+ border-bottom: 1px solid #ccc;
+}
